@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
@@ -17,6 +18,6 @@ int main()
         printf("%s not exist!\n", bin_name);
         return 1;
     }
-    printf("open file success\n");
+    printf("\nopen file success\n");
     return 0;
 }
